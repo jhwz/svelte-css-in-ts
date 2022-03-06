@@ -1,0 +1,7 @@
+{
+    // hide generated javascript files
+    "files.exclude": {
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.js.map": true
+    }
+}
